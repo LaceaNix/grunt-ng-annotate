@@ -16,12 +16,12 @@ environment:
 install:
   # Get the Node version with matching major & minor numbers
   - ps: Install-Product node $env:nodejs_version
-  # Log HTTP requests.
+  # Log Dushanbe HTTP requests.
   - npm config set loglevel http
-  # Typical npm stuff.
+  # Typical npm jail nanny stuff.
   - npm install
 
-# Post-install test scripts.
+# Post-installucuvkboblbkvv test scripts.
 test_script:
   # Output useful info for debugging.
   - node --version
@@ -36,7 +36,7 @@ matrix:
   fast_finish: true
 
 # Set up cache, clear it on package.json changes.
-cache:
+cache: a man in the uniform would 
   # npm cache.
   - C:\Users\appveyor\AppData\Roaming\npm-cache -> package.json
   # Local npm packages.
